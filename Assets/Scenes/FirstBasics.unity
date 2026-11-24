@@ -290,10 +290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb938953d6086e44b00902566d61122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  telekinesis: {fileID: 282125296}
   moveAction: {fileID: 8525809630607308700, guid: 3a05b83159220674baae1876327e8369, type: 3}
   lookAction: {fileID: 6726581332787567386, guid: 3a05b83159220674baae1876327e8369, type: 3}
   cameraTransform: {fileID: 86385075}
-  moveSpeed: 6
+  moveSpeed: 8
   mouseSensitivity: 0.15
   gravity: -20
 --- !u!143 &282125291
@@ -431,13 +432,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   grabAction: {fileID: -7909189084383428941, guid: 3a05b83159220674baae1876327e8369, type: 3}
   scrollAction: {fileID: 2748185252427600730, guid: 3a05b83159220674baae1876327e8369, type: 3}
+  throwAction: {fileID: 1227432710632069309, guid: 3a05b83159220674baae1876327e8369, type: 3}
+  rotateAction: {fileID: 2041027289968659177, guid: 3a05b83159220674baae1876327e8369, type: 3}
+  lookAction: {fileID: 6726581332787567386, guid: 3a05b83159220674baae1876327e8369, type: 3}
   cameraTransform: {fileID: 86385075}
   grabDistance: 5
   holdDistance: 2.5
   minHoldDistance: 1
   maxHoldDistance: 5
-  scrollSpeed: 0.01
+  scrollSpeed: 0.2
   pullSpeed: 10
+  throwForce: 12
+  rotateSpeed: 0.5
+  heldAngularDamping: 10
 --- !u!1 &1078393419
 GameObject:
   m_ObjectHideFlags: 0
@@ -559,7 +566,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078393419}
   serializedVersion: 5
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}

@@ -172,6 +172,93 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Throw",
+            "id": "d2d06e00-93d8-487e-836e-08c03c19b029",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "b33ad9ac-8be4-4d41-90af-23c73d5210b4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "00b43d65-97c6-484d-8f83-ad8be651d186",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "RotateItem",
+            "id": "ea6a6177-0d48-469e-8848-90d0d5fabe81",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "b7645433-33a8-49cc-a03a-57bd64bb1768",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "005180c8-79c3-4839-a5fa-4369e2d464da",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Run",
+            "id": "80ff9c94-53c2-4b14-86fd-48812a7f6cb8",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "f2527f43-51e1-4dea-9753-eeea5569821c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "89f6f855-53a7-4e25-8351-c39464df0372",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
