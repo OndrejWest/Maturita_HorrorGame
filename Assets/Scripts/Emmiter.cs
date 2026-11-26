@@ -25,7 +25,7 @@ public class Emmiter : MonoBehaviour
     {
         if (Goal == null) return;
 
-        // 1. Determine WHICH collider we should look inside
+        
         Vector3 closestPoint = Area.ClosestPoint(Goal.transform.position);
         transform.position = closestPoint;
 
@@ -42,7 +42,7 @@ public class Emmiter : MonoBehaviour
 
     public void UpdateTargetGoal(string newTag)
     {
-        // Simply update the tag name. The Update loop will handle switching the collider automatically!
+        
 
         currentTagName = newTag;
         if (currentTagName == "Goal5")

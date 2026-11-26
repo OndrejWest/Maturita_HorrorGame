@@ -25,7 +25,7 @@ public class Telekinesis : MonoBehaviour
 
     private Rigidbody heldObject; // rigidbody drženého objektu
 
-    // Pomocná vlastnost, aby SimplePlayer věděl, kdy se otáčí předmět a ne kamera
+    // Pomocná vlastnost, aby PlayerMovement věděl, kdy se otáčí předmět a ne kamera
     public bool IsRotatingObject => heldObject != null && rotateAction != null && rotateAction.action.IsPressed();
 
     void OnEnable()

@@ -21,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public float maxStamina = 100f;
     public float staminaDrainPerSec = 25f;
     public float staminaRegenPerSec = 15f;
-    public float minStaminaToSprint = 20f; // cooldown threshold after running out
+    public float minStaminaToSprint = 20f; 
 
     private CharacterController controller;
     private float pitch = 0f;
